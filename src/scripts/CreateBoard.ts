@@ -165,8 +165,8 @@ export class CreateBoard extends PIXI.Container
         setTimeout(()=>{
             for(let i = 0 ; i < this.slotChar[0].length ; i++)
             {
-                if( this.slotChar[j][i].position.y >  this.slotArr[0][0].position.y - this.slotArr[0][0].height*3
-                    && this.slotChar[j][i].position.y < 0  ) 
+                if( this.slotChar[j][i].position.y >  this.slotArr[0][0].position.y - this.slotArr[0][0].height*5
+                    && this.slotChar[j][i].position.y < 0 ) 
                     {
                         this.addOnSlot(i,j)
                         break;
